@@ -4,17 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Button : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerExitHandler, IPointerUpHandler
+public class BallButton : MonoBehaviour, IPointerClickHandler
 {
-    public UIController Player = new UIController();
-    [SerializeField]
-    private int MYNum = 0;
-    bool IsOnClicked = false;
+    public UIController Player;
+    public int MYNum;
 
-    public void OnPointerUp(PointerEventData eventData)
-    {
-
-    }
+    private bool IsOnClicked = false;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -36,18 +31,5 @@ public class Button : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, 
                 IsOnClicked = true;
             }
         }
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-    }
-
-    void Update()
-    {
-        
     }
 }

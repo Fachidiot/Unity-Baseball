@@ -5,8 +5,7 @@ using UnityEngine.EventSystems;
 
 public class ResetButton : MonoBehaviour ,IPointerClickHandler
 {
-    [SerializeField]
-    private Baseballmanager manager = new Baseballmanager();
+    public Baseballmanager manager;
 
     public void Active()
     {

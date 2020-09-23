@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AIController : MonoBehaviour
+public class RandomUI : MonoBehaviour
 {
-    [SerializeField]
-    Text First = null;
-    [SerializeField]
-    Text Second = null;
-    [SerializeField]
-    Text Third = null;
+    public Text First = null;
+    public Text Second = null;
+    public Text Third = null;
 
-    List<int> list = new List<int>();
+    private List<int> list = new List<int>();
 
     public void reset()
     {

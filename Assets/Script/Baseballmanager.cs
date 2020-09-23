@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Baseballmanager : MonoBehaviour
 {
-    public UIController m_Player = null;
-    public AIController m_Random = null;
-    public EffectController Effect = null;
-    [SerializeField]
-    private ResetButton resetbutton;
+    public UIController m_Player;
+    public RandomUI m_Random;
+    public EffectController Effect;
+    public ResetButton resetbutton;
+
     private static List<int> PlayerList = new List<int>();
     private static List<int> RandomList = new List<int>();
 
-    int count = 0;
-    bool outofresult = false;
+    private int count;
+    private bool outofresult;
 
     public void PlayerInput(int _1)
     {

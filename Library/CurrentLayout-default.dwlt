@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 394}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 394}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 344}
   m_MaxSize: {x: 22012, y: 10022}
   vertical: 0
-  controlID: 120
+  controlID: 30
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 344}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 13
+  controlID: 53
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,17 +304,17 @@ MonoBehaviour:
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 07000000000000000000000005000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 06000000000000000000000005000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
+    m_HBaseRangeMin: -512
+    m_HBaseRangeMax: 512
+    m_VBaseRangeMin: -384
+    m_VBaseRangeMax: 384
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -334,7 +334,7 @@ MonoBehaviour:
       y: 17
       width: 1205
       height: 677
-    m_Scale: {x: 0.62685186, y: 0.62685186}
+    m_Scale: {x: 0.88151044, y: 0.88151044}
     m_Translation: {x: 602.5, y: 338.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -342,12 +342,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -961.15216
-      y: -540
-      width: 1922.3043
-      height: 1080
+      x: -683.48596
+      y: -384
+      width: 1366.9719
+      height: 768
     m_MinimalGUI: 1
-  m_defaultScale: 0.62685186
+  m_defaultScale: 0.88151044
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 1205, y: 694}
@@ -424,11 +424,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.2177601, y: 0.5845969, z: -0.16671683, w: -0.7635767}
     speed: 2
-    m_Value: {x: -0.21875463, y: 0.58000004, z: -0.16540587, w: -0.76706403}
+    m_Value: {x: -0.21775828, y: 0.584592, z: -0.16671544, w: -0.7635703}
   m_Size:
     m_Target: 4.0416584
     speed: 2
-    m_Value: 4.0416574
+    m_Value: 4.0416584
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -535,9 +535,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ac7cffff
-      m_LastClickedID: -33620
-      m_ExpandedIDs: 0492ffff72bfffff76bfffff52c0ffff56c0ffff5ac0ffff52fbffff448a00007c9700008297000076980000
+      m_SelectedIDs: 003c0000
+      m_LastClickedID: 15360
+      m_ExpandedIDs: 08e9ffffa83b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -599,19 +599,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Script
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\Unity_Hub\Unity_Repos\Baseball
+  m_LastProjectPath: "C:\\Users\\\uAE40\uD559\uB3D9\\repos\\Unity-Baseball"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 0e410000
     m_LastClickedID: 16654
-    m_ExpandedIDs: 00000000b82c0000542e0000c2310000c4310000c6310000
+    m_ExpandedIDs: 0000000032380000783900007e390000303a00007c3d00007e3d0000803d0000823d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,21 +640,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b82c0000c2310000c4310000c6310000ca6e0000988c00009c8c0000b48c0000
+    m_ExpandedIDs: ffffffff0000000032380000783900007e390000ec3900007c3d00007e3d0000803d0000823d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: BallButton
+      m_OriginalName: BallButton
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11052
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 

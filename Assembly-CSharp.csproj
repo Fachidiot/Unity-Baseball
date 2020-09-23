@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FDE1F8D1-BA79-177C-0DFC-633918529580}</ProjectGuid>
+    <ProjectGuid>{1E1975CE-AA85-88F3-82B1-85E5D2D46C1A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,40 +62,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\AIController.cs" />
+    <Compile Include="Assets\Script\BallButton.cs" />
     <Compile Include="Assets\Script\Baseballmanager.cs" />
-    <Compile Include="Assets\Script\Button.cs" />
     <Compile Include="Assets\Script\EffectController.cs" />
+    <Compile Include="Assets\Script\RandomUI.cs" />
     <Compile Include="Assets\Script\ResetButton.cs" />
     <Compile Include="Assets\Script\ShootButton.cs" />
     <Compile Include="Assets\Script\UIController.cs" />
     <None Include="Assets\Baseball Bats\Documentation\Documentation.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:/Unity_Hub/Unity_Repos/Baseball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/김학동/repos/Unity-Baseball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

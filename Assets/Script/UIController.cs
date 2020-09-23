@@ -5,66 +5,61 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    [SerializeField]
-    private Baseballmanager Manager = new Baseballmanager();
-    [SerializeField]
-    Text First = null;
-    [SerializeField]
-    Text Second = null;
-    [SerializeField]
-    Text Third = null;
+    public Baseballmanager Manager;
+    public Text First;
+    public Text Second;
+    public Text Third;
 
-    List<int> list = new List<int>();
-
-    int count = 0;
+    private List<int> m_List = new List<int>();
+    private int m_iCount = 0;
 
     public void reset()
     {
         for (int i = 0; i < 3; i++)
         {
-            list.RemoveAt(0);
+            m_List.RemoveAt(0);
         }
 
         First.text = 0.ToString();
         Second.text = 0.ToString();
         Third.text = 0.ToString();
-        count = 0;
+        m_iCount = 0;
     }
 
     public void GetNumber(int _1)
     {
-        list.Add(_1);
+        m_List.Add(_1);
         ShowNum();
     }
 
     public void ShowNum()
     {
-        switch (list.Count)
+        switch (m_List.Count)
         {
             case 1:
-                First.text = list[0].ToString();
+                First.text = m_List[0].ToString();
                 break;
             case 2:
-                Second.text = list[1].ToString();
+                Second.text = m_List[1].ToString();
                 break;
             case 3:
-                Third.text = list[2].ToString();
+                Third.text = m_List[2].ToString();
                 break;
         }
     }
 
     public void Sort()
     {
-        list.Sort();
-        First.text = list[0].ToString();
-        Second.text = list[1].ToString();
-        Third.text = list[2].ToString();
+        m_List.Sort();
+        First.text = m_List[0].ToString();
+        Second.text = m_List[1].ToString();
+        Third.text = m_List[2].ToString();
     }
 
     public void DeleteNumber(int _1)
     {
-        list.Remove(_1);
-        switch(list.Count)
+        m_List.Remove(_1);
+        switch(m_List.Count)
         {
             case 0:
                 First.text = 0.ToString();
@@ -80,17 +75,17 @@ public class UIController : MonoBehaviour
 
     public void ClickCount()
     {
-        count++;
+        m_iCount++;
     }
 
     public void DisCount()
     {
-        count--;
+        m_iCount--;
     }
 
     public bool ButtonManage()
     {
-        if (count >= 3)
+        if (m_iCount >= 3)
             return false;
 
         else
@@ -99,8 +94,8 @@ public class UIController : MonoBehaviour
 
     public void SendNum()
     {
-        Manager.PlayerInput(list[0]);
-        Manager.PlayerInput(list[1]);
-        Manager.PlayerInput(list[2]);
+        Manager.PlayerInput(m_List[0]);
+        Manager.PlayerInput(m_List[1]);
+        Manager.PlayerInput(m_List[2]);
     }
 }

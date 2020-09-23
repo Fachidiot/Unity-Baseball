@@ -5,22 +5,14 @@ using UnityEngine.UI;
 
 public class EffectController : MonoBehaviour
 {
-    [SerializeField]
-    private Image image = null;
-    [SerializeField]
-    public Sprite m_homerun = null;
-    [SerializeField]
-    public Sprite m_out = null;
-    [SerializeField]
-    public Sprite m_hit = null;
-    [SerializeField]
-    public Sprite m_secondhit = null;
-    [SerializeField]
-    public Sprite m_four = null;
-    [SerializeField]
-    public Sprite m_strike = null;
-    [SerializeField]
-    public Sprite m_ball = null;
+    public Image image;
+    public Sprite m_homerun;
+    public Sprite m_out;
+    public Sprite m_hit;
+    public Sprite m_secondhit;
+    public Sprite m_four;
+    public Sprite m_strike;
+    public Sprite m_ball;
 
     private void Start()
     {
